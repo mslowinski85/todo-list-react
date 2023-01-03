@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ddd;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.body__label {
+  font-size: xx-large;
+  font-weight: 900;  
+  padding: 10px 0px; 
+  
+}
+
+.body__label--toDoListLabel{
+  font-size: large;
+  font-weight: 900;
+}
+.body__label--addNewTask {
+  font-size: large;
+  font-weight: 900;
+
 }
