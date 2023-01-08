@@ -1,6 +1,6 @@
 # ToDo List - React JS App
 
-![ToDo_list_React](https://github.com/mslowinski85/todo-list-react/blob/main/public/print_screen.png)
+![ToDo_list_React](https://https://github.com/mslowinski85/todo-list-react/blob/master/public/print_screen.png)
 
 It's a first version of **"ToDo List"** web application without usable functions with using ***React JS***. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
