@@ -2,6 +2,8 @@
 
 ![ToDo_list_react](https://github.com/mslowinski85/todo-list-react/blob/master/public/print_screen.png)
 
+## Description
+
 It's a first version of **"ToDo List"** web application without usable functions with using ***React JS***. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -9,22 +11,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [https://mslowinski85.github.io/todo-list-react/](https://mslowinski85.github.io/todo-list-react/)
 
-## Description
-
-It's a second version of ***"To-Do List"*** web application, which You can use the following functions:
-- **"Add"** new task,
-- **"Delete"** existing task,
-- **"Check"** done task,
-
-and new buttons added:
-- **"Hide end tasks"** or **"Show end tasks"**,
-- **"End all tasks"**.
-
 ## Used technologies
 
 - ***HTML*** with using ***BEM*** convention,
 - ***CSS*** with using ***FLEX*** and ***GRID*** layout,
-- ***JAVA SCRIPT*** with using ***IMMUTABILITY***.
+- ***JAVA SCRIPT*** with using ***IMMUTABILITY*** and ***REACT***.
 
 ## Available Scripts
 
