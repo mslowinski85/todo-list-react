@@ -1,5 +1,9 @@
 import "./style.css";
 
+const deleteTask = (name) => {
+    console.log(`Usunąłeś zadanie: ${name}`);
+}
+
 const Tasks = ({ tasks, hideDoneTask }) => (
     <ul className="list">
         {tasks.map(task => (
@@ -18,6 +22,7 @@ const Tasks = ({ tasks, hideDoneTask }) => (
                 </span> 
                 <button 
                     className="list__button list__button--delete"
+                    onClick={() => deleteTask(task.content)}
                 >
                     🗑
                 </button> 
