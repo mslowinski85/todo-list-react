@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 25px;
     border-bottom: 2px solid #ddd;
 }
 
@@ -24,4 +24,10 @@
 
 .section__title {
     margin: 10px 0;
+}
+
+@media (max-width: 500px){
+    .section__title{
+        align-self: flex-start;
+    }
 }
