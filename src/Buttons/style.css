@@ -1,70 +1,67 @@
-.body__container {
-    background-color: #ddd; 
-    padding: 20px 0px;
+.buttons {
+    background-color: white; 
+    padding: 20px 0px; 
   }
 
-.body__container--buttons {
+.buttons__buttonContainer {
     background-color: white;
   }
-  
+
   @media (max-width: 500px) {
-    .body__container--buttons{
+    .buttons__buttonContainer{
         display: grid;
         grid-template-columns: auto;
         grid-gap: 10px;
      
     }
   } 
-
-  .body__buttons {
+  
+  .buttons__button {
     border: none;
     color: hsl(180, 100%, 25%);
     background-color: white;
     font-size: medium;
     transition: 0.3s;
   }
-  
-  .body__buttons:disabled{
+
+  .buttons__button:disabled{
     border: none;
     background-color: white;
     color: gray;
   }
   
-  .body__buttons:active{
+  .buttons__button:active{
     border: none;
   }
   
-  .body__buttons:hover {
+  .buttons__button:hover {
     color: hsl(180, 100%, 35%);
   }
 
-  .body__container--addNewTaskLabel {
+  .buttons__addNewTaskLabel {
     background-color: white;
     font-size: large;
     font-weight: 900;
-    margin-bottom: 1px;
     padding: 10px 20px;
   }
   
-  .body__container--toDoListLabel {
+  .buttons__toDoListLabel {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
     background-color: white;
-    padding: 10px 20px;
-    margin-top: 5px;
+    padding: 0px 20px;
   } 
   
   @media (max-width: 500px){
-    .body__container--toDoListLabel{
+    .buttons__toDoListLabel{
         grid-template-columns: 1fr;
         grid-gap: 5px;
     }
   }
 
-  .body__container--toDoList {
+  .buttons__toDoList {
     background-color: white;
     padding: 5px 20px; 
-    margin-top: 1px;
   }
   

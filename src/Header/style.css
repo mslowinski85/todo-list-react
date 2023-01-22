@@ -1,11 +1,4 @@
-.body__container {
+.header {
     background-color: #ddd; 
-    padding: 20px 0px;
   }
 
-  .body__label {
-    font-size: xx-large;
-    font-weight: 900;  
-    padding: 10px 0px; 
-    
-  }
