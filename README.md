@@ -4,7 +4,7 @@
 
 ## Description
 
-It's a first version of **"ToDo List"** web application without usable functions with using ***React JS***. 
+It's a first version of **"ToDo List"** web application with usable functions using ***React JS***. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Website app address
@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - ***HTML*** with using ***BEM*** convention,
 - ***CSS*** with using ***FLEX*** and ***GRID*** layout,
-- ***JAVA SCRIPT*** with using ***IMMUTABILITY*** and ***REACT***.
+- ***JAVA SCRIPT*** with using ***IMMUTABILITY***, ***REACT***, ***CREATE REACT APP***.
 
 ## Available Scripts
 
