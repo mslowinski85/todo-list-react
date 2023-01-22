@@ -4,11 +4,11 @@ const deleteTask = (name) => {
     console.log(`Usunąłeś zadanie: ${name}`);
 }
 
-const Tasks = ({ tasks, hideDoneTask }) => (
+const Tasks = ({ tasks, hideDone }) => (
     <ul className="list">
         {tasks.map(task => (
              <li className=
-                    {`${hideDoneTask && task.done ? 
+                    {`${hideDone && task.done ? 
                     "list__item--hiden" : "list__item"}`} 
                     key={task.id}
                 >
