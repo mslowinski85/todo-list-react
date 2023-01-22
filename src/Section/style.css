@@ -1,0 +1,27 @@
+.section {
+    background-color: white;
+    padding-top: 5px;
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+@media (max-width: 500px){
+    .section__header{
+        flex-direction: column;
+    }
+}
+
+.section__body {
+    border-bottom: 10px solid #ddd; 
+    padding: 0px 10px; 
+}
+
+.section__title {
+    margin: 10px 0;
+}

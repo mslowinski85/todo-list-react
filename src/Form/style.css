@@ -1,63 +1,63 @@
-.flex {
+.form {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 10px 0px;
     border: none;
     flex-basis: 100%;
     background-color: white;
 }
 
-@media (max-width: 752px) {
-    .flex {
+@media (max-width: 772px) {
+    .form {
         flex-wrap: wrap;
         padding: 5px;
         text-align: center;
     }
 }
 
-.flex__item {
+.form__item {
     padding: 5px 10px;
 }
 
-.flex__item--input {
+.form__item--input {
     flex-basis: 80%;
 }
 
-@media (max-width: 405px), (min-width: 751px) {
-    .flex__item--input {
+@media (max-width: 405px), (min-width: 771px) {
+    .form__item--input {
         flex-basis: 80%;
     }
 }
 
-@media (max-width: 752px) {
-    .flex__item--input {
+@media (max-width: 772px) {
+    .form__item--input {
         flex-basis: 100%;
     }
 }
 
-.flex__item--button {
+.form__item--button {
     flex-basis: 20%;
 }
 
-@media (max-width: 405px), (min-width: 751px) {
-    .flex__item--button {
+@media (max-width: 405px), (min-width: 771px) {
+    .form__item--button {
         flex-basis: 20%;
     }
 }
 
-@media (max-width: 752px) {
-    .flex__item--button {
+@media (max-width: 772px) {
+    .form__item--button {
         flex-basis: 100%;
     }
 }
 
-.flex__input {
+.form__input {
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
 }
 
-.flex__button {
+.form__button {
     background-color: hsl(180, 100%, 25%);
     color: white;
     border: none;
@@ -66,7 +66,7 @@
     transition: 0.3s;
 }
 
-.flex__button:hover{
+.form__button:hover{
     background-color: hsl(180, 100%, 30%);
     transform: scale(1.1);
 }

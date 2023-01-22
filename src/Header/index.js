@@ -1,6 +1,10 @@
-const Header = ({title}) => (
-    <div className="body__container">
-        <label className="body__label">{title}</label>
+import "./style.css";
+
+const Header = ({ title }) => (
+    <div className="header">
+        <h1>
+            {title}
+        </h1>
     </div>
 );
 

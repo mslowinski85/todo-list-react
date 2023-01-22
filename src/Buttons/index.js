@@ -1,18 +1,18 @@
 import "./style.css";
 
-const Buttons = ({tasks, hideDoneTask}) => (
-    <div className="body__container body__container--buttons">
+const Buttons = ({ tasks, hideDoneTask }) => (
+    <div className="buttons buttons__buttonContainer">
          {tasks.length > 0 && (
             <>
                 <button 
-                    className="body__buttons">
-                    {hideDoneTask && tasks.some(({done}) => done) 
+                    className="buttons__button">
+                    {hideDoneTask && tasks.some(({ done }) => done) 
                     ? "Pokaż " : "Ukryj "} ukończone
                 </button> 
                 <button 
-                    className= "body__buttons"
-                    disabled={tasks.every(({done}) => done) 
-                    ? "body__buttons:disabled" : "body__buttons"}
+                    className= "buttons__button"
+                    disabled={tasks.every(({ done }) => done) 
+                    ? "buttons__button:disabled" : "buttons__button"}
                 >
                     Ukończ wszystkie  
                 </button>

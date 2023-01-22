@@ -1,18 +1,18 @@
 import "./style.css";
 
-const Form = (props ) => (
-    <form className="" id="form">
-    <div className="flex">
-      <div className="flex__item flex__item--input">
+const Form = (props) => (
+    <form id="form">
+    <div className="form">
+      <div className="form__item form__item--input">
         <input
-          className="flex__input"
+          className="form__input"
           id="inputTask"
           placeholder="Co jest do zrobienia?"
           autofocus
         />
       </div>
-      <div className="flex__item flex__item--button">
-        <button className="flex__button" id="focusButton">
+      <div className="form__item form__item--button">
+        <button className="form__button" id="focusButton">
           Dodaj zadanie
         </button>
       </div>
