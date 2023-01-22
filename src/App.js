@@ -10,6 +10,7 @@ import Container from "./Container";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
+  
   const [tasks, setTasks] = useState([
     {id: 1, content: "przejść na Reacta", done: true},
     {id: 2, content: "ukończyć kurs Youcode", done: false},
@@ -33,6 +34,13 @@ function App() {
     }));
   };
 
+  const setAllDone = () => {
+    setTasks(tasks => tasks.map (task => ({
+      ...task,
+      done: true,
+    })));
+  };
+
   return (
     <Container>
       <Header title = "Lista zadań" />
@@ -54,6 +62,7 @@ function App() {
           tasks={tasks}
           hideDone={hideDone}
           toggleHideDone={toggleHideDone}
+          setAllDone={setAllDone}
         />}
       />
     </Container>
