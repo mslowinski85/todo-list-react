@@ -10,7 +10,7 @@ import Container from "./Container";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
-  
+
   const [tasks, setTasks] = useState([
     {id: 1, content: "przejść na Reacta", done: true},
     {id: 2, content: "ukończyć kurs Youcode", done: false},
@@ -41,12 +41,24 @@ function App() {
     })));
   };
 
+  const addNewTask = (content) => {
+    setTasks(tasks => [
+      ...tasks, 
+      {
+        content,
+        done: false,
+        id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
+
+      }
+    ]);
+  }
+
   return (
     <Container>
       <Header title = "Lista zadań" />
       <Section 
         title="Dodaj nowe zadanie" 
-        body={<Form/>} 
+        body={<Form addNewTask={addNewTask}/>} 
       />
       <Section
         title="Lista zadań"
